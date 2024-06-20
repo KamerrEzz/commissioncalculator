@@ -36,7 +36,7 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, computed } from 'vue';
 
 const amount = ref(1000);
@@ -56,7 +56,4 @@ const totalUSD = computed(() => {
     let percentageAmount = Number(convertDivisa.value) * (Number(paypalCommission.value) / 100);
     return Number(convertDivisa.value) + percentageAmount
 })
-
-
-
 </script>
