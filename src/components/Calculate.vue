@@ -111,6 +111,7 @@ const currencies: any = {
   CPL: 905,
   COP: 3928.33,
   ARS: 908.79,
+  CRC: 520,
   EUR: 0.92,
 };
 
