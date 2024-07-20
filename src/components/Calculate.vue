@@ -21,7 +21,7 @@
         class="flex items-center gap-3 border border-wewak-700/90 bg-wewak-700/50 p-3 rounded-sm"
       >
         <div>
-          <label v:for="currency">DIVISA ({{ currency }})</label>
+          <label v:for="currency">{{ currency }}</label>
           <input
             v-model="conversion.rate"
             class="bg-wewak-900 w-full p-3 outline-none rounded-md h-10"
